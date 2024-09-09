@@ -19,4 +19,6 @@ The text() method either sets the text of the selected node, or gets the current
 
 ##The attr() method works the same way that style() does. It takes comma-separated values, and can use a callback function.
 
+##Note: Multiplying each data point by the same constant only alters the scale. It's like zooming in, and it doesn't change the meaning of the underlying data.
+
 

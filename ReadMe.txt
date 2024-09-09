@@ -14,3 +14,9 @@ The text() method either sets the text of the selected node, or gets the current
 
 
 ##The data() method is used on a selection of DOM elements to attach the data to those elements. 
+
+##D3 has the attr() method to add any HTML attribute to an element, including a class name.
+
+##The attr() method works the same way that style() does. It takes comma-separated values, and can use a callback function.
+
+

@@ -38,3 +38,8 @@ CSS can be scalable when styles use relative units (such as vh, vw, or percentag
 ##D3 lets you label a graph element, such as a bar, using the SVG text element.
 
 Like the rect element, a text element needs to have x and y attributes, to place it on the SVG. It also needs to access the data to display those values.
+
+
+##A tooltip shows more information about an item on a page when the user hovers over that item. There are several ways to add a tooltip to a visualization. This challenge uses the SVG title element.
+
+title pairs with the text() method to dynamically add data to the bars

@@ -33,3 +33,8 @@ CSS can be scalable when styles use relative units (such as vh, vw, or percentag
 ##The next step is to create a shape to put in the svg area. There are a number of supported shapes in SVG, such as rectangles and circles. They are used to display data. For example, a rectangle (<rect>) SVG shape could create a bar in a bar chart.
 
 
+##n SVG, a rect shape is colored with the fill attribute. It supports hex codes, color names, and rgb values, as well as more complex options like gradients and transparency.
+
+##D3 lets you label a graph element, such as a bar, using the SVG text element.
+
+Like the rect element, a text element needs to have x and y attributes, to place it on the SVG. It also needs to access the data to display those values.

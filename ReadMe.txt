@@ -43,3 +43,5 @@ Like the rect element, a text element needs to have x and y attributes, to place
 ##A tooltip shows more information about an item on a page when the user hovers over that item. There are several ways to add a tooltip to a visualization. This challenge uses the SVG title element.
 
 title pairs with the text() method to dynamically add data to the bars
+
+##D3 has two methods, axisLeft() and axisBottom(), to render the y-axis and x-axis, respectively. 

@@ -8,3 +8,11 @@ After a Promise is returned, if the request was successful, the then method is e
 The then method also returns a Promise, which is handled by the next then method. The argument in the second then is the JSON object you are looking for!
 
 Now, it selects the element that will receive the data by using document.getElementById(). Then it modifies the HTML code of the element by inserting a string created from the JSON object returned from the request.
+
+
+##If you don't want to render every cat photo you get from the freeCodeCamp Cat Photo API, you can pre-filter the JSON before looping through it.
+
+Given that the JSON data is stored in an array, you can use the filter method to filter out the cat whose id key has a value of 1.
+
+
+##First, it checks if the navigator.geolocation object exists. If it does, the getCurrentPosition method on that object is called, which initiates an asynchronous request for the user's position. If the request is successful, the callback function in the method runs. This function accesses the position object's values for latitude and longitude using dot notation and updates the HTML.
